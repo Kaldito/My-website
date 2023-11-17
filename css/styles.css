@@ -1,3 +1,8 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 a {
   color: #11999E;
   font-weight: bold;
@@ -140,6 +145,7 @@ p {
 }
 
 .top-container {
+  height: 90vh;
   background-color: #EAF6F6;
   position: relative;
   padding-top: 100px;
@@ -160,5 +166,8 @@ p {
 }
 
 .mountain-img {
+  position: absolute;
+  bottom: 0;
+  left: 30%;
   width: 45%
 }
